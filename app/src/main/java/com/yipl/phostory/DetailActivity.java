@@ -77,7 +77,7 @@ public class DetailActivity extends BaseActivity implements View.OnClickListener
         int imgRes = (int) map.get(Constants.IMG);
         caption = map.get(Constants.CAPTION).toString();
         titleText.setText(caption);
-        bitmap = Utils.Image.getScaledDownBitmap(getResources(), 2, imgRes);
+        bitmap = Utils.Image.getScaledDownBitmap(getResources(), 0, imgRes);
         imageView.setImageBitmap(bitmap);
 
         initPalette();
@@ -97,6 +97,7 @@ public class DetailActivity extends BaseActivity implements View.OnClickListener
             @Override
             public void onGenerated(Palette palette) {
                 Palette.Swatch vibrantSwatch = palette.getVibrantSwatch();
+                Utils.getColors(palette);
                 if (vibrantSwatch != null) {
                     titleText.setTextColor(vibrantSwatch.getTitleTextColor());
                     textView.setTextColor(vibrantSwatch.getBodyTextColor());

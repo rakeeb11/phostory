@@ -1,11 +1,12 @@
-<animated-selector
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- provide a different drawable for each state-->
-    <item android:id="@+id/state_on"
+    <item
+        android:id="@+id/state_on"
         android:drawable="@drawable/white_heart"
-        android:state_selected="true"/>
-    <item android:id="@+id/state_off"
-        android:drawable="@drawable/gray_heart"/>
+        android:state_selected="true" />
+    <item
+        android:id="@+id/state_off"
+        android:drawable="@drawable/gray_heart" />
 
     <!-- specify transitions -->
     <transition
