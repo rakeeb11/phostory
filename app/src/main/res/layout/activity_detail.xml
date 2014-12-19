@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/mainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mainImage"
+                android:layout_width="match_parent"
+                android:layout_height="440dp"
+                android:scaleType="centerCrop" />
+
+            <FrameLayout
+                android:id="@+id/map_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+
+            <include layout="@layout/widget_toolbar_transparent" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_below="@id/mainContainer"
+            android:id="@+id/textContainer"
+            android:layout_width="match_parent"
+            android:background="#ccc"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="28dp"
+                android:id="@+id/likableText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="20dp"
+                android:text="Title"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="60dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/lipsum"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/love"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-28dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/love_ripple"
+            android:elevation="8dp"
+            android:layout_below="@id/mainContainer"
+            android:src="@drawable/animatedheart" />
+
+
+    </RelativeLayout>
+</ScrollView>

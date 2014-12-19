@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/heart"
+    android:height="@dimen/heart"
+    android:viewportHeight="512"
+    android:viewportWidth="512">
+    <path
+        android:pathData="@string/heart"
+        android:strokeColor="#fff"
+        android:strokeWidth="10"/>
+    <group
+        android:name="heart_group"
+        android:pivotX="50"
+        android:pivotY="50"
+        android:scaleX="0.0"
+        android:scaleY="0.0">
+        <path
+            android:name="heart"
+            android:fillColor="#FFF"
+            android:pathData="@string/heart" />
+    </group>
+</vector>

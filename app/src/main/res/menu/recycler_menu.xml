@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/imageLayout"
+        android:icon="@drawable/ic_listview"
+        android:title="List"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/job"
+        android:title="Schedule Job"
+        app:showAsAction="never"/>
+
+
+</menu>

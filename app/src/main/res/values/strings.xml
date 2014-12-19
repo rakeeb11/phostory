@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhoStory</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="img_caption">
+        <item>Shoes of the winter</item>
+        <item>Young people at YoungInnovations</item>
+        <item>Yes, the winter is Red</item>
+        <item>Happy faces</item>
+        <item>Working under the sun :)</item>
+        <item>Someone\'s very happy with the new headphones!</item>
+        <item>Geshan with his talk on "How to become a better software company technically" at YoungInnovations</item>
+        <item>Octoberians with their birthday cake :)</item>
+        <item>Laxmi puja.</item>
+        <item>How we\'ve been playing Table Tennis during loadshedding hours</item>
+        <item>Lapte bhoj, dashain special</item>
+        <item>Ta-da!</item>
+        <item>Bug at YoungInnovations</item>
+        <item>The plan</item>
+        <item>The finished mural</item>
+    </string-array>
+
+    <string-array name="img_time">
+        <item>1 week ago</item>
+        <item>1 week ago</item>
+        <item>1 week ago</item>
+        <item>1 week ago</item>
+        <item>2 weeks ago</item>
+        <item>2 weeks ago</item>
+        <item>2 weeks ago</item>
+        <item>1 month ago</item>
+        <item>1 month ago</item>
+        <item>2 months ago</item>
+        <item>2 months ago</item>
+        <item>2 months ago</item>
+        <item>2 months ago</item>
+        <item>2 months ago</item>
+        <item>2 months ago</item>
+    </string-array>
+
+
+    <string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet nisi eu ipsum sodales pretium eu in sem. Mauris pretium fermentum ante quis rutrum. Sed sed elit vel ligula suscipit iaculis nec sit amet quam. Pellentesque erat nibh, cursus id sem vel, dictum sollicitudin magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tortor odio, posuere sed congue sit amet, volutpat ultricies nulla. In eu pretium augue. Vestibulum sed lacinia nisl. In scelerisque lacus quis consectetur lobortis. Proin at purus vitae tortor consectetur fringilla. Cras dictum pharetra augue, nec molestie lectus accumsan id. Aliquam ut feugiat neque.</string>
+
+    <string name="heart">M377.594,18.938c-53.815,0-100.129,31.778-121.582,77.5c-21.469-45.721-67.789-77.5-121.608-77.5
+C60.213,18.938,0,79.158,0,153.354c0,150.923,152.25,190.497,256.011,339.709C354.088,344.776,512,299.461,512,153.354
+C512,79.158,451.786,18.938,377.594,18.938Z</string>
+
+</resources>
