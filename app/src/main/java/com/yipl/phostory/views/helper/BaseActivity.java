@@ -2,14 +2,10 @@ package com.yipl.phostory.views.helper;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 import com.yipl.phostory.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -21,7 +17,7 @@ import butterknife.Optional;
 /**
  * Created by rakeeb on 12/16/14.
  */
-public abstract class BaseActivity extends ActionBarActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
 
     @Optional

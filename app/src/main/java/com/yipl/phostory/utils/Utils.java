@@ -102,53 +102,53 @@ public class Utils {
         Palette.Swatch darkMutedSwatch = p.getDarkMutedSwatch();
         Palette.Swatch lightMutedSwatch = p.getLightMutedSwatch();
 
-        int vRGB = vibrantSwatch.getRgb();
-        int dvRGB = darkVibrantSwatch.getRgb();
-        int lvRGB = lightVibrantSwatch.getRgb();
+//        int vRGB = vibrantSwatch.getRgb();
+//        int dvRGB = darkVibrantSwatch.getRgb();
+//        int lvRGB = lightVibrantSwatch.getRgb();
 
-        int mRGB = mutedSwatch.getRgb();
-        int dmRGB = 0;
-        if (darkMutedSwatch != null) {
-            dmRGB = darkMutedSwatch.getRgb();
-        }
-        int lmRGB = lightMutedSwatch.getRgb();
+//        int mRGB = mutedSwatch.getRgb();
+//        int dmRGB = 0;
+//        if (darkMutedSwatch != null) {
+//            dmRGB = darkMutedSwatch.getRgb();
+//        }
+//        int lmRGB = lightMutedSwatch.getRgb();
 
-        Log.e("VIBRANT", Integer.toHexString(vRGB) + "");
-        Log.e("DARK VIBRANT", Integer.toHexString(dvRGB) + "");
-        Log.e("LIGHT VIBRANT", Integer.toHexString(lvRGB) + "");
-        Log.e("MUTED", Integer.toHexString(mRGB) + "");
-        Log.e("DARK MUTED", Integer.toHexString(dmRGB) + "");
-        Log.e("LIGHT MUTED", Integer.toHexString(lmRGB) + "");
+//        Log.e("VIBRANT", Integer.toHexString(vRGB) + "");
+//        Log.e("DARK VIBRANT", Integer.toHexString(dvRGB) + "");
+//        Log.e("LIGHT VIBRANT", Integer.toHexString(lvRGB) + "");
+//        Log.e("MUTED", Integer.toHexString(mRGB) + "");
+//        Log.e("DARK MUTED", Integer.toHexString(dmRGB) + "");
+//        Log.e("LIGHT MUTED", Integer.toHexString(lmRGB) + "");
 
-        int vtText = vibrantSwatch.getTitleTextColor();
-        int vbText = vibrantSwatch.getBodyTextColor();
+//        int vtText = vibrantSwatch.getTitleTextColor();
+//        int vbText = vibrantSwatch.getBodyTextColor();
+//
+//        int dvtText = darkVibrantSwatch.getTitleTextColor();
+//        int dvbText = darkVibrantSwatch.getBodyTextColor();
+//
+//        int lvtText = lightVibrantSwatch.getTitleTextColor();
+//        int lvbText = lightVibrantSwatch.getBodyTextColor();
+//
+//        int mtText = mutedSwatch.getTitleTextColor();
+//        int mbText = mutedSwatch.getBodyTextColor();
 
-        int dvtText = darkVibrantSwatch.getTitleTextColor();
-        int dvbText = darkVibrantSwatch.getBodyTextColor();
+//        int dmtText = 0;
+//        int dmbText = 0;
+//        if (darkMutedSwatch != null) {
+//            dmtText = darkMutedSwatch.getTitleTextColor();
+//            dmbText = darkMutedSwatch.getBodyTextColor();
+//        }
 
-        int lvtText = lightVibrantSwatch.getTitleTextColor();
-        int lvbText = lightVibrantSwatch.getBodyTextColor();
+//        int lmtText = lightMutedSwatch.getTitleTextColor();
+//        int lmbText = lightMutedSwatch.getBodyTextColor();
 
-        int mtText = mutedSwatch.getTitleTextColor();
-        int mbText = mutedSwatch.getBodyTextColor();
-
-        int dmtText = 0;
-        int dmbText = 0;
-        if (darkMutedSwatch != null) {
-            dmtText = darkMutedSwatch.getTitleTextColor();
-            dmbText = darkMutedSwatch.getBodyTextColor();
-        }
-
-        int lmtText = lightMutedSwatch.getTitleTextColor();
-        int lmbText = lightMutedSwatch.getBodyTextColor();
-
-        Log.e("VIBRANT TEXT", "T: " + Integer.toHexString(vtText) + "; B: " + Integer.toHexString(vbText));
-        Log.e("DARK VIBRANT TEXT", "T: " + Integer.toHexString(dvtText) + "; B: " + Integer.toHexString(dvbText));
-        Log.e("LIGHT VIBRANT TEXT", "T: " + Integer.toHexString(lvtText) + "; B: " + Integer.toHexString(lvbText));
-
-        Log.e("MUTED TEXT", "T: " + Integer.toHexString(mtText) + "; B: " + Integer.toHexString(mbText));
-        Log.e("DARK MUTED TEXT", "T: " + Integer.toHexString(dmtText) + "; B: " + Integer.toHexString(dmbText));
-        Log.e("LIGHT MUTED TEXT", "T: " + Integer.toHexString(lmtText) + "; B: " + Integer.toHexString(lmbText));
+//        Log.e("VIBRANT TEXT", "T: " + Integer.toHexString(vtText) + "; B: " + Integer.toHexString(vbText));
+//        Log.e("DARK VIBRANT TEXT", "T: " + Integer.toHexString(dvtText) + "; B: " + Integer.toHexString(dvbText));
+//        Log.e("LIGHT VIBRANT TEXT", "T: " + Integer.toHexString(lvtText) + "; B: " + Integer.toHexString(lvbText));
+//
+//        Log.e("MUTED TEXT", "T: " + Integer.toHexString(mtText) + "; B: " + Integer.toHexString(mbText));
+//        Log.e("DARK MUTED TEXT", "T: " + Integer.toHexString(dmtText) + "; B: " + Integer.toHexString(dmbText));
+//        Log.e("LIGHT MUTED TEXT", "T: " + Integer.toHexString(lmtText) + "; B: " + Integer.toHexString(lmbText));
     }
 
 }

@@ -1,0 +1,18 @@
+ext {
+
+    supportLibVersion = '26.1.0'
+
+    supportLib = [
+            v4          : "com.android.support:support-v4:$supportLibVersion",
+            appcompat   : "com.android.support:appcompat-v7:$supportLibVersion",
+            cardview    : "com.android.support:cardview-v7:$supportLibVersion",
+            recyclerview: "com.android.support:recyclerview-v7:$supportLibVersion",
+            palette     : "com.android.support:palette-v7:$supportLibVersion"
+    ]
+
+    playVersion = '11.2.0'
+
+    play = [
+            maps: "com.google.android.gms:play-services-maps:$playVersion"
+    ]
+}
